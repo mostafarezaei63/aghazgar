@@ -1,0 +1,6 @@
+{
+  "name": "آغازگر - اپلیکیشن ضد اهمال‌کاری و مدیریت زمان",
+  "description": "اپلیکیشن همراه اندروید برای بهینه‌سازی شروع به موقع کارها، غلبه بر اصطکاک آغاز، سیستم پاداش و جریمه علمی و نمودارهای تحلیل عملکرد روزانه",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

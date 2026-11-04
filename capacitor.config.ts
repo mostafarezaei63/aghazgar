@@ -1,0 +1,24 @@
+import type { CapacitorConfig } from '@capacitor/cli';
+
+const config: CapacitorConfig = {
+  appId: 'com.aghazgar.app',
+  appName: 'آغازگر',
+  webDir: 'dist',
+  backgroundColor: '#0f172a',
+  server: {
+    androidScheme: 'https',
+  },
+  android: {
+    allowMixedContent: true,
+    backgroundColor: '#0f172a',
+  },
+  plugins: {
+    StatusBar: {
+      overlaysWebView: false,
+      style: 'DARK',
+      backgroundColor: '#0f172a',
+    },
+  },
+};
+
+export default config;

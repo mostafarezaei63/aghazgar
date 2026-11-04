@@ -1,0 +1,13 @@
+include ':app'
+
+include ':capacitor-android'
+project(':capacitor-android').projectDir = new File(rootDir, 'capacitor-android')
+
+include ':capacitor-app'
+project(':capacitor-app').projectDir = new File(rootDir, 'capacitor-app')
+
+include ':capacitor-local-notifications'
+project(':capacitor-local-notifications').projectDir = new File(rootDir, 'capacitor-local-notifications')
+
+include ':capacitor-cordova-android-plugins'
+project(':capacitor-cordova-android-plugins').projectDir = new File(rootDir, 'capacitor-cordova-android-plugins')

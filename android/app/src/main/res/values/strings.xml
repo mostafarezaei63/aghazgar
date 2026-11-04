@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">آغازگر</string>
+    <string name="title_activity_main">آغازگر</string>
+    <string name="package_name">com.aghazgar.app</string>
+    <string name="custom_url_scheme">com.aghazgar.app</string>
+</resources>
